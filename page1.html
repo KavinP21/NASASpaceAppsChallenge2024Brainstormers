@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm AI Assistant</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    <div class="c1">
+        <h1 id="box1">Farming Assistant</h1>
+
+        <!-- Section for Disease Prediction -->
+        <section class="c2">
+            <h2 id="box2">Disease Prediction</h2>
+            <input type="file" id="disease-image" />
+            <button onclick="predictDisease()">Predict Disease</button>
+            <p id="disease-result"></p>
+        </section>
+
+        <!-- Section for Earth Observation -->
+        <section class="c2">
+            <h2 id="box2">Earth Observation</h2>
+            <p> ------------------</p>
+        </section>
+
+        <!-- Section for Rainfall Prediction -->
+        <section class="c2">
+            <h2 id="box2">Rainfall Prediction</h2>
+            <input type="text" id="location-input" placeholder="Enter location" />
+            <button onclick="predictRainfall()">Predict Rainfall</button>
+            <p id="rainfall-result"></p>
+        </section>
+    </div>
+
+    <script src="file1.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    background-image: url(bg-image1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.c1 {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+#box1{
+    width:400px;
+    height:50px;
+    background-color:rgb(253, 253, 253);
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);  (syntax-same as text shadow)
+    text-align: center;
+    margin-left: 190px;
+
+}
+
+
+/* Heading styles */
+h1 {
+    color: #02020c;
+    margin-bottom: 40px;
+
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+#box2{
+    width: 300px;
+    height: 30px;
+    background-color: rgba(253, 252, 252, 0); /* Semi-transparent black */
+    border: 2px solid black;
+    margin-left:240px;
+}
+
+/* Section styling */
+.c2 {
+    margin-bottom: 30px;
+}
+
+input[type="file"], input[type="text"] {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Button styling */
+button {
+    background-color: #77afda;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d8b2da;
+}
+
+/* Result styling */
+#disease-result, #rainfall-result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
